@@ -5,8 +5,6 @@
 [![Documentation](https://docs.rs/serde_ltsv/badge.svg)](https://docs.rs/serde_ltsv) 
 ![License](https://img.shields.io/crates/l/serde_ltsv.svg)
 
-## Serde LTSV
-
 Labeled Tab-separated Values (LTSV) format is a variant of Tab-separated Values (TSV). Each
 record in a LTSV file is represented as a single line. Each field is separated by TAB and has
 a label and a value. The label and the value have been separated by ':'. With the LTSV format,
@@ -17,7 +15,7 @@ fields with unique labels in no particular order.
 time:[10/Oct/2000:13:55:36 -0700]\tdone:true\tscore:-1\tmean:0.42\tcounter:42\tlevel:3\thost:testhostname\tname1:value1\tname 2: value 2\tn3:v3\tmessage:this is a test
 ```
 
-### Quickstart
+## Quickstart
 
 You can start using it by first adding it to your `Cargo.toml`:
 
